@@ -52,7 +52,7 @@ function install_vfw_scripts {
     pushd /opt
     wget -q "https://nexus.onap.org/content/repositories/releases/org/onap/demo/vnf/vfw/vfw-scripts/1.6.0/vfw-scripts-1.6.0.zip"
     unzip "vfw-scripts-1.6.0.zip"
-    wget "https://raw.githubusercontent.com/mahsanaru/demo/master/heat/vFW_CNF_CDS/templates/helm/vfw/templates/tap.sh"
+    wget "https://raw.githubusercontent.com/mahsanaru/test/master/heat/vFW_CNF_CDS/templates/helm/vfw/templates/tap.sh"
     mv tap.sh v_firewall_init.sh
     chmod +x *.sh
 
