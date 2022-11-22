@@ -1,0 +1,15 @@
+/.project
+/.pydevproject
+.*.sw?
+.DS_Store
+target/
+*~
+.idea
+*.iml
+.gitconfig
+.tox/
+*.o
+*.deb
+*.d
+*.tgz
+vpp_measurement_reporter

@@ -1,0 +1,15 @@
+apiVersion: skaffold/v1beta13
+kind: Config
+build:
+  artifacts:
+    - image: hdfs-writer
+  tagPolicy:
+    sha256: {}
+deploy:
+  kubectl:
+    manifests:
+      - kubernetes-manifests/configmap_hdfs.yaml
+      - kubernetes-manifests/configmap_kafka.yaml
+      - kubernetes-manifests/configmap_writer.yaml
+      - kubernetes-manifests/hdfs_writer_deployment.yaml
+      - kubernetes-manifests/hdfs_writer_service.yaml
