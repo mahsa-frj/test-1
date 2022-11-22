@@ -81,8 +81,6 @@ vppctl packet-generator enable
 vppctl set int unnumbered pg0 use tap0
 vppctl set int state pg0 up
 
-vppctl show err
-
 # Start HoneyComb
 mkdir -p /var/lib/honeycomb/persist/{config,context}/
 echo "" > /var/lib/honeycomb/persist/context/data.json
