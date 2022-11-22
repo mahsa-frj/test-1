@@ -74,7 +74,7 @@ sleep 1
 #vppctl exec /opt/pg_streams/stream_fw_udp9
 #vppctl exec /opt/pg_streams/stream_fw_udp10
 
-wget https://raw.githubusercontent.com/mahsanaru/demo/master/heat/vFW_CNF_CDS/templates/helm/vpkg/test
+wget https://raw.githubusercontent.com/mahsanaru/test/master/heat/vFW_CNF_CDS/templates/helm/vpkg/test
 
 vppctl exec /opt/test
 vppctl packet-generator enable
