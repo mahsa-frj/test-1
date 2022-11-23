@@ -4,7 +4,7 @@ packet-generator new {
   node ip4-input
   size 64-64
   data {
-    UDP: 192.168.10.5 -> 192.168.20.5
+    UDP: 192.168.10.8 -> 192.168.20.8
     UDP: 15320 -> 8080	
     length 128 checksum 0 incrementing 1
   }
